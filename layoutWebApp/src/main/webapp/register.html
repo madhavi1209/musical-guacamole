@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zomato- Never have a bad meal</title>
+	<script type ="text/javascript" src="main1.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+</head>
+<body>
+    <div class="header">
+      <h1>Hello! Welcome to Zomato!</h1>    
+    </div>
+      
+    <div class="topnav">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><img src="images/zomato-logo.png" style="float: right; padding-right: 20px; height:50px"></li>
+        </ul>
+      </div>
+      
+      <div class="row">
+        <div class="main">
+          <div class="card">
+            <h2 style="text-align: center;">Register to order delicious food! </h2>
+            <form name="form1" id="form1" method=post" onsubmit="return checkValidity()">
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="username" id="username">
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" id="pass">
+              
+                  <label for="email"><b>Email Address</b></label>
+                  <input type="email" placeholder="Enter Email Address" name="email" id="email">
+              
+                  <label for="city"><b>City</b></label>
+                  <input type="text" placeholder="Enter City" name="city" id="city">
+              
+                  <label for="mobile"><b>Mobile No.</b></label>
+                  <input type="tel" placeholder="Enter Mobile Number" name="mobile" id="mobile">
+
+                  <button type="submit" id="register" >Register</button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="footer">
+        <p>© 2008-2020 - Zomato™ Media Pvt Ltd. All rights reserved.</p>
+      </div>
+
+	  
+</body>
+</html>
